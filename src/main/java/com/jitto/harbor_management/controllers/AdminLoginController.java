@@ -18,9 +18,4 @@ public class AdminLoginController {
     public ResponseEntity<?> adminLogin(@RequestBody AdminLoginModel adminLoginModel){
         return adminLoginService.adminLogin(adminLoginModel);
     }
-
-    @PostMapping("/adminlogin1")
-    public ResponseEntity<?> adminLogin1(@RequestBody AdminLoginModel adminLoginModel){
-        return adminLoginService.adminLogin(adminLoginModel);
-    }
 }
